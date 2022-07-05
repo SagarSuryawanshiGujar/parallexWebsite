@@ -1,0 +1,229 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: "poppins",sans-serif; 
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+
+
+}
+.pimg1{
+    background-image: url(images/imageAurora.jpg);
+    min-height: 100%;
+}
+.pimg4{
+    background-image: url(images/imageAurora7.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(images/imageAurora3.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/imageAurora5.jpg);
+    min-height: 400px;
+}
+.pimg5{
+    background-image: url(images/imageAurora4.jpg);
+    min-height: 500px;
+}
+
+.pimg1,.pimg2, .pimg3,.pimg4,.pimg5{
+    position:relative;
+    background-position:center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Caveat Brush',cursive;
+}
+.textbg{
+   
+    color: #fff;
+    padding: 20px;
+
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow:2px 2px 15xp rgb(214, 208, 208);
+    
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+ 
+
+}
+.section-light{
+   background: #282e34;
+   color: #ddd;
+}
+.section-light-dark{
+    background-color: #282e34;
+    color: #ddd;
+
+}
+
+
+.ab-text{
+    padding: 50px 20%;
+    background: #282e34;
+
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 40px;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.heading p{
+    color: #9bacc4;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.ftext{
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Caveat Brush',cursive; 
+    text-align: center;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    grid-gap: 1.7rem;
+    align-items: center;
+    margin-top:5rem;
+   
+}
+.box{
+    height: 340px;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: gray;
+    transition: all 0.8s;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box1{
+    background: linear-gradient(to bottom ,
+    rgba(0,0,0,0)0%,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.7)75%, #000 100%),
+    url(images/image1.png) center center no-repeat;
+    background-size:cover ;
+}
+.box1:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.box2{
+    background: linear-gradient(to bottom ,
+    rgba(0,0,0,0)0%,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.7)75%, #000 100%),
+    url(images/image2.png) center center no-repeat;
+    background-size:cover ;
+}
+.box2:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.box3{
+    background: linear-gradient(to bottom ,
+    rgba(0,0,0,0)0%,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.7)75%, #000 100%),
+    url(images/image3.png) center center no-repeat;
+    background-size:cover ;
+}
+.box3:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.box4{
+    background: linear-gradient(to bottom ,
+    rgba(0,0,0,0)0%,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.7)75%, #000 100%),
+    url(images/image1.png) center center no-repeat;
+    background-size:cover ;
+}
+.box4:hover{
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.in{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.bottom{
+    text-align: center;
+    color: #abd5bd;
+    padding-top: 50px 80px;
+    font-size:  14px;
+    letter-spacing: 1px;
+    height: 5vh;
+
+}
+
+
+.social-media{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.social-media a{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 110px;
+
+}
+ a i{
+    transition: all 0.3s linear;
+
+ }
+ a:hover i{
+    transform: scale(1.5);
+ }
+ .fa-instagram{
+    color: #e84393;
+ }
+ .fa-linkedin{
+    color: #0097e6;
+ }
+ .fa-twitter{
+    color: #0097e6;
+ }
